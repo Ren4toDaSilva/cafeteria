@@ -9,3 +9,14 @@ body{
 h1{
     color:#6b4226;
 }
+
+nav{
+    background-color: #6b4226;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
