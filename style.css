@@ -1,40 +1,52 @@
-body{
-    background-color: #f3f3f3;
+body {
+    background: url(img/banner\ background.jpg)no-repeat center center;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 50px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-h1{
-    color:#6b4226;
+/* Barra de navegação */
+nav {
+    background-color: #41160f; /* marrom mais escuro */
+    display: flex;
+    justify-content: space-between; /* separa logo e links */
+    align-items: center;
+    padding: 15px 50px;
 }
 
-nav{
-    background-color: #6b4226;
-    padding: 10px;
+nav img{
+    height: 100px;
+    margin: 25px 0;
 }
 
-nav a{
-    color: white;
-    margin: 0 15px;
+/* Links do menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #f3f3f3;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a:hover{
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-h1{
-    color: #6b4226;
-}
-
-footer{
+/* Rodapé */
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #6b4226;
+    background-color: #3b1a15;
     color: white;
     text-align: center;
     padding: 10px;
